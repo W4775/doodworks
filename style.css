@@ -18,8 +18,9 @@ body {
     justify-content: center;
     font-size: 10rem;
     position: absolute;
-    top: 45%;
+    top: 40%;
     width: 100%;
+    flex-wrap: wrap;
 
     .dood {
         font-family: "Josefin Sans", sans-serif;
