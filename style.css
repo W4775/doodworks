@@ -69,7 +69,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    opacity: .5;
 
     .cap {
         background: url("./images/cap.png");
