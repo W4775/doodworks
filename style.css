@@ -4,14 +4,23 @@
 
 body {
     background-color: black;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background {
     display: flex;
     flex-direction: column;
-    position: relative;
-    height: 100vh;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url('data:image/svg+xml,<svg width="203.707" height="231.787" xmlns="http://www.w3.org/2000/svg"><g style="display:inline" transform="translate(-100 -25) rotate(-25) scale(.25)" opacity=".02"><rect style="fill:%23000" width="239.712" height="431.543" x="326.409" y="304.416" ry="41.893" rx="34.52"/><ellipse style="fill:%23000;stroke-width:1.08248" cx="530.059" cy="519.806" rx="201.853" ry="215.893"/><path style="fill:%23f9f9f9" d="m453.052 590.562-49.201 49.645.072-51.622z"/><rect style="fill:%23f9f9f9;stroke-width:1.00678" width="49.071" height="209.299" x="403.941" y="381.511" rx="0" ry="0"/><path style="fill:%23f9f9f9" d="M448.743 427.384c37.85-7.35 86.859-2.32 103.343 11.338-6.872 7.099-53.021 67.29-80.55 97.183 13.064.502 25.815 1.308 39.542 2.083-23.655 41.132-47.345 83.062-71 124.194 143.589 20.446 264.285-94.983 183.687-224.423-12.005 11.037-29.732 25.752-38.087 34.033 54.769 68.843-21.42 151.06-94.677 148.755-4.725-.15 57.338-78.408 84.632-108.482-13.786-.656-27.614-1.558-41.54-2.057l60.283-102.341c-42.037-31.363-97.476-25.923-145.026-26.171-2.68 16.18-.607 29.49-.607 45.888z"/></g></svg>');
+
 }
 
 .logo-container {
@@ -39,7 +48,7 @@ body {
         display: flex;
         justify-content: center;
     }
-    
+
     .coming-soon {
         display: flex;
         justify-content: center;
@@ -74,7 +83,7 @@ body {
         height: 280px;
     }
 
-    .base { 
+    .base {
         background: url("./images/base.png");
         width: 315px;
         height: 220px;
