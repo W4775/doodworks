@@ -19,7 +19,6 @@ body {
     font-size: 10rem;
     position: absolute;
     align-items: center;
-    width: 100%;
     flex-wrap: wrap;
 
     .dood {
